@@ -3,6 +3,7 @@
 // Capturar o prompt do usuário
 const prompt = require('prompt-sync')();
 
+
 const entradaDoUsuario = prompt('Digite um Número: ');
 
 const restoDaDivisao = entradaDoUsuario % 2;
